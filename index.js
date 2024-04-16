@@ -1,5 +1,17 @@
 /* Your Code Here */
-
+let testEmployee  = ["Gray", "Worm", "Security", 1]
+function createEmployeeRecord(names){
+   return {
+    "firstName": names[0],
+    "familyName": names[1],
+    "title": names[2],
+    "payPerHour": names[3],
+    "timeInEvents": [],
+    "timeOutEvents": []
+   }
+   
+}
+createEmployeeRecord(testEmployee)
 /*
  We're giving you this function. Take a look at it, you might see some usage
  that's new and different. That's because we're avoiding a well-known, but
